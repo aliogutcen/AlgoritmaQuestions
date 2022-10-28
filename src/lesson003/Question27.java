@@ -11,23 +11,22 @@ public class Question27 {
 		// Kullanıcıdan sürekli sayı alıcaz
 		// 0'a bastığımız zaman programdan cıkacak ve carpimi
 
-		System.out.print("Bir sayı giriniz= ");
-		int x = scanner.nextInt();
-		int carpim = 1;
-		int ilkDeger = 0;
-		while (x > 0) {
-			carpim = carpim * x;
+		int carpim = 0;
+		boolean kosul = true;
+		while (kosul == true) {
 			System.out.print("Bir sayı giriniz= ");
-			x = scanner.nextInt();
-			ilkDeger = 1;
+			int x = scanner.nextInt();
+			if (x > 0) {
+
+				carpim = 1;
+				carpim = carpim * x;
+
+			} else if (x == 0) {
+				System.out.println("Programdan çıktınız");
+				kosul = false;
+			}
 		}
 
-		if (ilkDeger == 0) {
-			System.out.print("Programdan Çıktınız");
-		} else {
-			System.out.print("Programdan Çıktınız" + carpim);
-
-		}
-
+		System.out.println("çarpımları =" + carpim);
 	}
 }

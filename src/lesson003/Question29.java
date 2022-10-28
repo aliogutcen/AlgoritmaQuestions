@@ -13,7 +13,7 @@ public class Question29 {
 		int sayi = scanner.nextInt();  
         int basamak;
         int i=1;
-        while (sayi > 0){  
+        while (sayi != 0){  
              basamak=sayi%10;
              sayi = sayi/10; 
              
