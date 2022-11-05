@@ -1,0 +1,12 @@
+
+
+//çalışan sınıfı olacak
+//sınıfıtan ad soyad departmanmaas cinsiyet dogum tarihi yas
+//özelliklerin hepsi public
+
+örnek2;
+
+ürünsınıfı
+ürünAdi, urunBarkodNumarası,URUNfİYATİ;URUNKATEGORİ
+
+ürün sinifi içerisinde bilgileriGoster; dönüş tipi olmasın
